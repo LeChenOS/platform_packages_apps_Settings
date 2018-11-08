@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/shortcut_background"/>
+    <foreground>
+        <vector
+          android:width="120dp"
+          android:height="120dp"
+          android:viewportWidth="78.0"
+          android:viewportHeight="78.0">
+            <group android:translateX="13.0" android:translateY="13.0">
+                <path
+                    android:fillColor="@*android:color/accent_device_default_light"
+                    android:pathData="M31.1,38.3H20.9c-0.9,0-1.4-0.6-1.4-1.4v-19c0-0.9,0.6-1.4,1.4-1.4h1.8v-2.2h6.7v2.2h1.8c0.9,0,1.4,0.6,1.4,1.4 v18.9C32.6,37.6,32,38.3,31.1,38.3z M21.8,35.8h8.4v-17h-3.3v-2.2H25v2.2h-3.3L21.8,35.8L21.8,35.8z"/>
+            </group>
+        </vector>
+    </foreground>
+</adaptive-icon>
